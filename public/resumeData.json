@@ -1,0 +1,180 @@
+{
+  "main": {
+    "greeting": "Hi, I'm Roni",
+    "name": "Roni Taradipta",
+    "description": "I am a web development engineer. This project is a resume template that can be used as the project home page or resume page",
+    "image": "profilepic.png",
+    "bio": "I'm trained as Professional Pharmacist, currently in progress to carrer shifting as Junior Website Developer. I'm learning Fullstack but more prefered to front end developer",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "roni.divine@gmail.com",
+    "phone": "+62 8873-6271-37",
+    "github": "https://github.com/ronitaradipta/portofolio",
+    "project": "https://github.com/ronitaradipta/portofolio",
+    "address": {
+      "street": "Perumahan Graha Anyar, Jimbaran",
+      "city": "Badung",
+      "state": "Bali",
+      "zip": "80361"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/tbaker_x",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Udayana University",
+        "degree": "Bachelor Degree",
+        "graduated": "2015",
+        "description": "I'm trained as Pharmacist at Udayana University"
+      }
+    ],
+    "work": [
+      {
+        "company": "Apotek Pharmacy",
+        "title": "Head of Pharmacy",
+        "years": "2016 - Present",
+        "description": "Work as Pharmacist at local Pharmacy"
+      },
+      {
+        "company": "Chainlords Guild",
+        "title": "Web Developer",
+        "years": "2021 - Present",
+        "description": "Chain Lords are a gaming guild and DAO that focuses on play-to-earn blockchain based games and metaverse land conquests. As a guild we help people play, earn and explore the metaverse through games. Where we all mutually benefit together from our play and experiences."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Html",
+        "level": "90%"
+      },
+      {
+        "name": "CSS",
+        "level": "80%"
+      },
+      {
+        "name": "Javascript",
+        "level": "75%"
+      },
+      {
+        "name": "ReactJS",
+        "level": "70%"
+      },
+      {
+        "name": "PHP",
+        "level": "80%"
+      },
+      {
+        "name": "Wordpress",
+        "level": "90%"
+      },
+      {
+        "name": "UI Design",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "01.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "02.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "03.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "04.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "05.jpg",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "06.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "01.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "02.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "03.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "04.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "05.jpg",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "06.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}
