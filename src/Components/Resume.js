@@ -55,7 +55,11 @@ class Resume extends Component {
 
     return (
       <section id="resume">
-        <div className="row education">
+        <div
+          className="row education"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
           <div className="three columns header-col">
             <h1>
               <span>Education</span>
@@ -69,7 +73,11 @@ class Resume extends Component {
           </div>
         </div>
 
-        <div className="row work">
+        <div
+          className="row work"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
           <div className="three columns header-col">
             <h1>
               <span>Work</span>
@@ -79,7 +87,11 @@ class Resume extends Component {
           <div className="nine columns main-col">{work}</div>
         </div>
 
-        <div className="row skill">
+        <div
+          className="row skill"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           <div className="three columns header-col">
             <h1>
               <span>Skills</span>
@@ -87,8 +99,6 @@ class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <p>{skillmessage}</p>
-
             <div className="bars">
               <ul className="skills">{skills}</ul>
             </div>

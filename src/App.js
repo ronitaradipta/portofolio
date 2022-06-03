@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import "./App.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
@@ -34,13 +36,16 @@ class App extends Component {
 
   componentDidMount() {
     this.getResumeData();
+    AOS.init({
+      duration: 2000,
+    });
   }
 
   render() {
     return (
       <div className="App">
         <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
+        <About data={this.state.resumeData.main} data-aos="fade-in" />
         <Resume data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
         <Contact data={this.state.resumeData.main} />

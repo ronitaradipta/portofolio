@@ -21,9 +21,20 @@
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #fff;
+}
+::-webkit-scrollbar {
+  width: 0.6vw;
+  background: rgb(45, 45, 45);
+}
+::-webkit-scrollbar-thumb {
+  background: -webkit-linear-gradient(#ff8b5a, #fe6928);
+  background: linear-gradient(#ff8b5a, #fe6928);
+  border-radius: 20px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -335,9 +346,9 @@ ul#nav li.current a {
 .bars li {
   position: relative;
   margin-bottom: 60px;
-  background: #333;
-  height: 42px;
-  border-radius: 0px;
+  background: rgb(134, 134, 134);
+  height: 24px;
+  border-radius: 20px;
 }
 .bars li em {
   font: 15px "opensans-bold", sans-serif;
@@ -357,9 +368,9 @@ ul#nav li.current a {
   padding-right: 24px;
   background: #313131;
   display: inline-block;
-  height: 42px;
+  height: 24px;
   line-height: 42px;
-  border-radius: 0px;
+  border-radius: 20px;
 }
 /*
 .git {
@@ -459,12 +470,12 @@ ul#nav li.current a {
   padding-bottom: 60px;
 }
 #portfolio h1 {
-  font: 15px/24px "opensans-semibold", sans-serif;
+  font: 24px "opensans-semibold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #95a3a3;
+  color: #4c4c4c;
 }
 
 /* Portfolio Content */
@@ -1129,7 +1140,10 @@ footer .social-links li:first-child {
   margin-right: 15px;
 }
 .project-btn {
-  background-color: #1abc9c !important;
+  background-color: #fe6928 !important;
+}
+.project-btn:hover {
+  background-color: #c14713 !important;
 }
 .github-btn {
   background-color: #34495e !important;
