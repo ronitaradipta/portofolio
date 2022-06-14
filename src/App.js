@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import $ from "jquery";
-import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "./Components/Header";
