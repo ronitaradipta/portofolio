@@ -23,16 +23,19 @@ class About extends Component {
               className="profile-pic"
               src={profilepic}
               alt="Roni Taradipta"
+              data-aos="fade-right"
             />
           </div>
           <div className="eight columns main-col">
-            <h2>About Me</h2>
+            <h2 data-aos="fade-up" data-aos-delay="50">
+              About Me
+            </h2>
 
-            <p>{bio}</p>
+            <p data-aos="fade-up">{bio}</p>
             <div className="row">
               <div className="columns contact-details">
-                <h2>Contact Details</h2>
-                <p className="address">
+                <h2 data-aos="fade-up">Contact Details</h2>
+                <p className="address" data-aos="fade-up">
                   <span>{name}</span>
                   <br />
                   <span>
@@ -49,7 +52,11 @@ class About extends Component {
               <div className="row">
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
+                    <a
+                      href={resumeDownload}
+                      className="button"
+                      data-aos="fade-up"
+                    >
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>
